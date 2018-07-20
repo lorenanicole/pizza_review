@@ -3,6 +3,7 @@ import logging
 import re
 from pathlib import Path
 from statistics import mean
+from urllib.parse import urlencode
 
 import requests
 import yaml
