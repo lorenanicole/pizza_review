@@ -12,7 +12,7 @@ This is a Flask Python 3.6.2 app.
 
 You'll need to register a Yelp application via [Yelp's Create App](https://www.yelp.com/developers/v3/manage_app) dash. From there you'll received a `client_id` and an `api_key`, which you'll want to put into a yaml file located at `app/config.yml`.
 
-Now you're read to spin up the app:
+Now you're ready to spin up the app:
 
 Option 1: Use Docker Compose
 ```
@@ -34,7 +34,7 @@ Option 2: Run from CLI directly
 ```
 cd app
 pip3 install -r requirements.txt
-python3 app/app.py 
+python3 app.py 
 ```
 
 ### Finding reviews for a pizza shop in New York
