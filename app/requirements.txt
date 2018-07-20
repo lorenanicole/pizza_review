@@ -1,0 +1,4 @@
+PyYAML
+bs4
+flask
+requests

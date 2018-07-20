@@ -1,0 +1,9 @@
+version: '3'
+services:
+  app:
+    image: pizza_review:tag
+    build: ./app
+    ports:
+     - "5000:5000"
+    volumes:
+     - .:/code

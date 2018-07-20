@@ -1,0 +1,56 @@
+{
+  "businesses": [
+    {
+      "id": "oJ_XSPZFpvIt6rvheSQl7A",
+      "alias": "bleecker-street-pizza-new-york",
+      "name": "Bleecker Street Pizza",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/K0AY54PM-8T7dNjO0grH1g/o.jpg",
+      "is_closed": "False",
+      "url": "https://www.yelp.com/biz/bleecker-street-pizza-new-york?adjust_creative=sMTSC_u90MSejq9sV23DmQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=sMTSC_u90MSejq9sV23DmQ",
+      "review_count": 1771,
+      "categories": [
+        {
+          "alias": "pizza",
+          "title": "Pizza"
+        },
+        {
+          "alias": "italian",
+          "title": "Italian"
+        }
+      ],
+      "rating": 4.0,
+      "coordinates": {
+        "latitude": 40.7320627016512,
+        "longitude": -74.0036552270137
+      },
+      "transactions": [
+        "delivery",
+        "pickup"
+      ],
+      "price": "$",
+      "location": {
+        "address1": "69 7th Ave S",
+        "address2": "",
+        "address3": "",
+        "city": "New York",
+        "zip_code": "10014",
+        "country": "US",
+        "state": "NY",
+        "display_address": [
+          "69 7th Ave S",
+          "New York, NY 10014"
+        ]
+      },
+      "phone": "+12129244466",
+      "display_phone": "(212) 924-4466",
+      "distance": 3072.9540450669765
+    }
+  ],
+  "total": 366,
+  "region": {
+    "center": {
+      "longitude": -73.99429321289062,
+      "latitude": 40.70544486444615
+    }
+  }
+}

@@ -1,0 +1,331 @@
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 294-046-996
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2018 16:42:23] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 294-046-996
+INFO:werkzeug:127.0.0.1 - - [20/Jul/2018 10:06:44] "GET /restaurant/reviews/?name=dimos&location=chicago&reviews=26 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [20/Jul/2018 10:07:11] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 294-046-996
+INFO:werkzeug:127.0.0.1 - - [20/Jul/2018 10:07:53] "GET /restaurant/reviews/?name=dimos&location=chicago&reviews=26 HTTP/1.1" 404 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.yelp.com
+DEBUG:urllib3.connectionpool:https://api.yelp.com:443 "GET /v3/businesses/search?term=dimos&location=chicago&limit=1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.yelp.com
+DEBUG:urllib3.connectionpool:https://www.yelp.com:443 "GET /biz/dimos-pizza-chicago-3?adjust_creative=sMTSC_u90MSejq9sV23DmQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=sMTSC_u90MSejq9sV23DmQ HTTP/1.1" 200 None
+INFO:root:Reviews to collect: 0
+INFO:werkzeug:127.0.0.1 - - [20/Jul/2018 10:08:43] "GET /restaurant/reviews?name=dimos&location=chicago&reviews=26 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.yelp.com
+DEBUG:urllib3.connectionpool:https://api.yelp.com:443 "GET /v3/businesses/search?term=bleecker+street+pizza&location=new+york&limit=1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.yelp.com
+DEBUG:urllib3.connectionpool:https://www.yelp.com:443 "GET /biz/bleecker-street-pizza-new-york?adjust_creative=sMTSC_u90MSejq9sV23DmQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=sMTSC_u90MSejq9sV23DmQ HTTP/1.1" 200 None
+INFO:root:Reviews to collect: 0
+INFO:werkzeug:127.0.0.1 - - [20/Jul/2018 10:12:32] "GET /restaurant/reviews?name=bleecker+street+pizza&location=new+york&reviews=26 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Jul/2018 10:12:34] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug: * Detected change in '/Users/lorenamesa/Desktop/pizza_review/app/yelp_api.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 294-046-996
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.yelp.com
+DEBUG:urllib3.connectionpool:https://api.yelp.com:443 "GET /v3/businesses/search?term=bleecker+street+pizza&location=new+york&limit=1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.yelp.com
+DEBUG:urllib3.connectionpool:https://www.yelp.com:443 "GET /biz/bleecker-street-pizza-new-york?adjust_creative=sMTSC_u90MSejq9sV23DmQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=sMTSC_u90MSejq9sV23DmQ HTTP/1.1" 200 None
+INFO:root:Reviews to collect: 6
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.yelp.com
+DEBUG:urllib3.connectionpool:https://www.yelp.com:443 "GET /biz/bleecker-street-pizza-new-york?adjust_creative=sMTSC_u90MSejq9sV23DmQ&start=20&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=sMTSC_u90MSejq9sV23DmQ HTTP/1.1" 200 None
+INFO:root:Reviews to collect: 0
+INFO:werkzeug:127.0.0.1 - - [20/Jul/2018 10:13:24] "GET /restaurant/reviews?name=bleecker+street+pizza&location=new+york&limit=26 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/lorenamesa/Desktop/pizza_review/app/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 294-046-996
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 294-046-996
+INFO:werkzeug:127.0.0.1 - - [20/Jul/2018 10:37:56] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/lorenamesa/Desktop/pizza_review/app/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 294-046-996
+INFO:werkzeug: * Detected change in '/Users/lorenamesa/Desktop/pizza_review/app/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 294-046-996
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 294-046-996
+INFO:werkzeug: * Detected change in '/Users/lorenamesa/Desktop/pizza_review/app/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 294-046-996
+INFO:werkzeug: * Detected change in '/Users/lorenamesa/Desktop/pizza_review/app/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 294-046-996
+INFO:werkzeug: * Detected change in '/Users/lorenamesa/Desktop/pizza_review/app/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 294-046-996
+INFO:werkzeug:127.0.0.1 - - [20/Jul/2018 10:38:43] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 294-046-996
+INFO:werkzeug:127.0.0.1 - - [20/Jul/2018 10:45:03] "GET / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [20/Jul/2018 10:45:03] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Jul/2018 10:45:03] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Jul/2018 10:45:03] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Jul/2018 10:45:03] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Jul/2018 10:45:03] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Jul/2018 10:45:04] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 294-046-996
+INFO:werkzeug:127.0.0.1 - - [20/Jul/2018 10:45:28] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 294-046-996
+INFO:werkzeug:127.0.0.1 - - [20/Jul/2018 10:46:19] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Jul/2018 10:47:14] "POST /restaurant/reviews HTTP/1.1" 405 -
+INFO:werkzeug: * Detected change in '/Users/lorenamesa/Desktop/pizza_review/app/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 294-046-996
+INFO:werkzeug: * Detected change in '/Users/lorenamesa/Desktop/pizza_review/app/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 294-046-996
+INFO:werkzeug: * Detected change in '/Users/lorenamesa/Desktop/pizza_review/app/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 294-046-996
+INFO:root:Received request with params: b''
+INFO:werkzeug:127.0.0.1 - - [20/Jul/2018 10:49:37] "POST /restaurant/reviews HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [20/Jul/2018 10:49:37] "GET /restaurant/reviews?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Jul/2018 10:49:37] "GET /restaurant/reviews?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Jul/2018 10:49:37] "GET /restaurant/reviews?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Jul/2018 10:49:37] "GET /restaurant/reviews?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Jul/2018 10:49:37] "GET /restaurant/reviews?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Jul/2018 10:49:38] "GET /restaurant/reviews?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 294-046-996
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 294-046-996
+INFO:root:Received request with params: b''
+INFO:werkzeug:127.0.0.1 - - [20/Jul/2018 10:52:53] "POST /restaurant/reviews HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [20/Jul/2018 10:52:53] "GET /restaurant/reviews?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Jul/2018 10:52:53] "GET /restaurant/reviews?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Jul/2018 10:52:53] "GET /restaurant/reviews?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Jul/2018 10:52:53] "GET /restaurant/reviews?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Jul/2018 10:52:53] "GET /restaurant/reviews?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 294-046-996
+INFO:werkzeug: * Detected change in '/Users/lorenamesa/Desktop/pizza_review/app/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 294-046-996
+INFO:werkzeug:127.0.0.1 - - [20/Jul/2018 11:01:46] "GET /restaurant/reviews HTTP/1.1" 405 -
+INFO:werkzeug:127.0.0.1 - - [20/Jul/2018 11:01:49] "GET / HTTP/1.1" 200 -
+INFO:root:Received request with params: ImmutableMultiDict([('location', 'Bleecker Street'), ('term', 'New York'), ('limit', '1')])
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.yelp.com
+DEBUG:urllib3.connectionpool:https://api.yelp.com:443 "GET /v3/businesses/search?term=None&location=Bleecker+Street&limit=1 HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [20/Jul/2018 11:02:06] "POST /restaurant/reviews HTTP/1.1" 404 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 294-046-996
+INFO:root:Received request with params: ImmutableMultiDict([('location', 'Bleecker Street'), ('term', 'New York'), ('limit', '1')])
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 294-046-996
+INFO:root:Received request with params: ImmutableMultiDict([('location', 'Bleecker Street'), ('term', 'New York'), ('limit', '1')])
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 294-046-996
+INFO:werkzeug:127.0.0.1 - - [20/Jul/2018 11:04:15] "GET / HTTP/1.1" 200 -
+INFO:root:Received request with params: ImmutableMultiDict([('location', ''), ('name', ''), ('limit', '1')])
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 294-046-996
+INFO:root:Received request with params: ImmutableMultiDict([('location', 'New York'), ('name', 'Bleecker Street'), ('limit', '1')])
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.yelp.com
+DEBUG:urllib3.connectionpool:https://api.yelp.com:443 "GET /v3/businesses/search?term=Bleecker+Street&location=New+York&limit=1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.yelp.com
+DEBUG:urllib3.connectionpool:https://www.yelp.com:443 "GET /biz/bleecker-street-pizza-new-york?adjust_creative=sMTSC_u90MSejq9sV23DmQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=sMTSC_u90MSejq9sV23DmQ HTTP/1.1" 200 None
+INFO:root:Reviews to collect: 0
+INFO:werkzeug:127.0.0.1 - - [20/Jul/2018 11:05:35] "POST /restaurant/reviews HTTP/1.1" 200 -
+INFO:root:Received request with params: ImmutableMultiDict([('location', 'New York'), ('name', 'Bleecker Street'), ('limit', '1')])
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.yelp.com
+DEBUG:urllib3.connectionpool:https://api.yelp.com:443 "GET /v3/businesses/search?term=Bleecker+Street&location=New+York&limit=1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.yelp.com
+DEBUG:urllib3.connectionpool:https://www.yelp.com:443 "GET /biz/bleecker-street-pizza-new-york?adjust_creative=sMTSC_u90MSejq9sV23DmQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=sMTSC_u90MSejq9sV23DmQ HTTP/1.1" 200 None
+INFO:root:Reviews to collect: 0
+INFO:werkzeug:127.0.0.1 - - [20/Jul/2018 11:06:11] "POST /restaurant/reviews HTTP/1.1" 200 -
+INFO:root:Received request with params: ImmutableMultiDict([('location', 'New York'), ('name', 'Bleecker Street'), ('limit', '1')])
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 294-046-996
+INFO:werkzeug:127.0.0.1 - - [20/Jul/2018 11:07:32] "GET / HTTP/1.1" 200 -
+INFO:root:Received request with params: ImmutableMultiDict([('location', 'Bleecker Street'), ('name', 'New York'), ('limit', '21')])
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.yelp.com
+DEBUG:urllib3.connectionpool:https://api.yelp.com:443 "GET /v3/businesses/search?term=New+York&location=Bleecker+Street&limit=1 HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [20/Jul/2018 11:07:50] "POST /restaurant/reviews HTTP/1.1" 404 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 294-046-996
+INFO:werkzeug:127.0.0.1 - - [20/Jul/2018 11:08:12] "GET / HTTP/1.1" 200 -
+INFO:root:Received request with params: ImmutableMultiDict([('location', 'Bleecker Street'), ('name', 'New York'), ('limit', '23')])
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.yelp.com
+DEBUG:urllib3.connectionpool:https://api.yelp.com:443 "GET /v3/businesses/search?term=New+York&location=Bleecker+Street&limit=1 HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [20/Jul/2018 11:08:21] "POST /restaurant/reviews HTTP/1.1" 404 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 294-046-996
+INFO:root:Received request with params: ImmutableMultiDict([('location', 'Bleecker Street'), ('name', 'New York'), ('limit', '23')])
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.yelp.com
+DEBUG:urllib3.connectionpool:https://api.yelp.com:443 "GET /v3/businesses/search?term=New+York&location=Bleecker+Street&limit=1 HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [20/Jul/2018 11:09:25] "POST /restaurant/reviews HTTP/1.1" 404 -
+INFO:root:Received request with params: ImmutableMultiDict([('location', 'Bleecker Street'), ('name', 'New York'), ('limit', '23')])
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 294-046-996
+INFO:werkzeug:127.0.0.1 - - [20/Jul/2018 11:09:52] "GET / HTTP/1.1" 200 -
+INFO:root:Received request with params: ImmutableMultiDict([('location', 'New York'), ('name', 'Bleecker Street'), ('limit', '23')])
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.yelp.com
+DEBUG:urllib3.connectionpool:https://api.yelp.com:443 "GET /v3/businesses/search?term=Bleecker+Street&location=New+York&limit=1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.yelp.com
+DEBUG:urllib3.connectionpool:https://www.yelp.com:443 "GET /biz/bleecker-street-pizza-new-york?adjust_creative=sMTSC_u90MSejq9sV23DmQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=sMTSC_u90MSejq9sV23DmQ HTTP/1.1" 200 None
+INFO:root:Reviews to collect: 3
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.yelp.com
+DEBUG:urllib3.connectionpool:https://www.yelp.com:443 "GET /biz/bleecker-street-pizza-new-york?adjust_creative=sMTSC_u90MSejq9sV23DmQ&start=20&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=sMTSC_u90MSejq9sV23DmQ HTTP/1.1" 200 None
+INFO:root:Reviews to collect: 0
+INFO:werkzeug:127.0.0.1 - - [20/Jul/2018 11:10:19] "POST /restaurant/reviews HTTP/1.1" 200 -
+INFO:root:Received request with params: b'{"name":"bleecker street", "location":"new+york", "limit":26}'
+INFO:werkzeug:127.0.0.1 - - [20/Jul/2018 11:11:59] "POST /restaurant/reviews HTTP/1.1" 500 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 294-046-996
+INFO:werkzeug: * Detected change in '/Users/lorenamesa/Desktop/pizza_review/app/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 294-046-996
+INFO:root:Received request with params: {"name":"bleecker street", "location":"new york", "limit":26}
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 294-046-996
+INFO:root:Received request with params: {'name': 'bleecker street', 'location': 'new york', 'limit': 26}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.yelp.com
+DEBUG:urllib3.connectionpool:https://api.yelp.com:443 "GET /v3/businesses/search?term=bleecker+street&location=new+york&limit=1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.yelp.com
+DEBUG:urllib3.connectionpool:https://www.yelp.com:443 "GET /biz/bleecker-street-pizza-new-york?adjust_creative=sMTSC_u90MSejq9sV23DmQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=sMTSC_u90MSejq9sV23DmQ HTTP/1.1" 200 None
+INFO:root:Reviews to collect: 6
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.yelp.com
+DEBUG:urllib3.connectionpool:https://www.yelp.com:443 "GET /biz/bleecker-street-pizza-new-york?adjust_creative=sMTSC_u90MSejq9sV23DmQ&start=20&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=sMTSC_u90MSejq9sV23DmQ HTTP/1.1" 200 None
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 294-046-996
+INFO:root:Received request with params: {'name': 'bleecker street', 'location': 'new york', 'limit': 26}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.yelp.com
+DEBUG:urllib3.connectionpool:https://api.yelp.com:443 "GET /v3/businesses/search?term=bleecker+street&location=new+york&limit=1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.yelp.com
+DEBUG:urllib3.connectionpool:https://www.yelp.com:443 "GET /biz/bleecker-street-pizza-new-york?adjust_creative=sMTSC_u90MSejq9sV23DmQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=sMTSC_u90MSejq9sV23DmQ HTTP/1.1" 200 None
+INFO:root:Reviews to collect: 6
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.yelp.com
+DEBUG:urllib3.connectionpool:https://www.yelp.com:443 "GET /biz/bleecker-street-pizza-new-york?adjust_creative=sMTSC_u90MSejq9sV23DmQ&start=20&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=sMTSC_u90MSejq9sV23DmQ HTTP/1.1" 200 None
+INFO:root:Reviews to collect: 0
+INFO:werkzeug:127.0.0.1 - - [20/Jul/2018 11:15:40] "POST /restaurant/reviews HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 294-046-996
+INFO:root:Received request with params: {'name': 'bleecker street', 'location': 'new york', 'limit': 26}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.yelp.com
+DEBUG:urllib3.connectionpool:https://api.yelp.com:443 "GET /v3/businesses/search?term=bleecker+street&location=new+york&limit=1 HTTP/1.1" 200 None
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 294-046-996
+INFO:werkzeug: * Detected change in '/Users/lorenamesa/Desktop/pizza_review/app/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 294-046-996
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 294-046-996
+INFO:root:Received request with params: {'name': 'bleecker street', 'location': 'new york', 'limit': 26}
+INFO:werkzeug: * Detected change in '/Users/lorenamesa/Desktop/pizza_review/app/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Received request with params: ImmutableMultiDict([('name', 'bleecker street'), ('location', 'new york'), ('limit', '10')])
+ERROR:app.app:Exception on /restaurant/reviews [POST]
+Traceback (most recent call last):
+  File "/Users/lorenamesa/.pyenv/versions/3.6.2/lib/python3.6/site-packages/flask/app.py", line 1988, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/lorenamesa/.pyenv/versions/3.6.2/lib/python3.6/site-packages/flask/app.py", line 1641, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/lorenamesa/.pyenv/versions/3.6.2/lib/python3.6/site-packages/flask/app.py", line 1544, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lorenamesa/.pyenv/versions/3.6.2/lib/python3.6/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/Users/lorenamesa/.pyenv/versions/3.6.2/lib/python3.6/site-packages/flask/app.py", line 1639, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/lorenamesa/.pyenv/versions/3.6.2/lib/python3.6/site-packages/flask/app.py", line 1625, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/lorenamesa/Desktop/pizza_review/app/app.py", line 89, in get_restaurant_reviews
+    restaurant_categories = list(map(lambda r: r.get('alias'), restaurant['categories']))
+KeyError: 'categories'
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 294-046-996
+INFO:root:Received request with params: ImmutableMultiDict([('name', 'bleecker street'), ('location', 'new york'), ('limit', '10')])
+ERROR:app.app:Exception on /restaurant/reviews [POST]
+Traceback (most recent call last):
+  File "/Users/lorenamesa/.pyenv/versions/3.6.2/lib/python3.6/site-packages/flask/app.py", line 1988, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/lorenamesa/.pyenv/versions/3.6.2/lib/python3.6/site-packages/flask/app.py", line 1641, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/lorenamesa/.pyenv/versions/3.6.2/lib/python3.6/site-packages/flask/app.py", line 1544, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lorenamesa/.pyenv/versions/3.6.2/lib/python3.6/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/Users/lorenamesa/.pyenv/versions/3.6.2/lib/python3.6/site-packages/flask/app.py", line 1639, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/lorenamesa/.pyenv/versions/3.6.2/lib/python3.6/site-packages/flask/app.py", line 1625, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/lorenamesa/Desktop/pizza_review/app/app.py", line 88, in get_restaurant_reviews
+    restaurant_categories = list(map(lambda r: r.get('alias'), restaurant['categories']))
+KeyError: 'categories'
