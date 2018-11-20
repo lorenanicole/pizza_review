@@ -3,7 +3,7 @@
 ### Challenge
 
 - Build a web page that accepts the name of a pizza restaurant in New York
-- The response should displays the n most recent Yelp reviews for this restaurant
+- The response should display the `n` most recent Yelp reviews for this restaurant
 - The web page should also display the average score (0-5) of the returned reviews
 
 ### Setup
@@ -14,7 +14,7 @@ You'll need to register a Yelp application via [Yelp's Create App](https://www.y
 
 Now you're ready to spin up the app:
 
-Option 1: Use Docker Compose
+*Option 1: Use Docker Compose*
 ```
 cd app
 docker-compose up -d  # Runs detached
@@ -30,7 +30,7 @@ docker-compose build --no-cache
 # Flow as specified above
 ```
 
-Option 2: Run from CLI directly
+*Option 2: Run from CLI directly(=*
 ```
 cd app
 pip3 install -r requirements.txt
